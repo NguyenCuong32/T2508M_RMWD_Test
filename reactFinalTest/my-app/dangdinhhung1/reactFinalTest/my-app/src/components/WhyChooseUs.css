@@ -1,0 +1,22 @@
+.why-container {
+  width: 70%;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.why-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.why-list {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.why-list li {
+  margin: 8px 0;
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Object 1",
+    "description": "Mô tả object 1"
+  },
+  {
+    "id": 2,
+    "name": "Object 2",
+    "description": "Mô tả object 2"
+  }
+]

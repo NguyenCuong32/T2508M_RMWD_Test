@@ -1,0 +1,28 @@
+.banner {
+  width: 100%;
+  height: 450px;
+  background-image: url("../assets/hi.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-overlay {
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+.banner-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.banner-subtitle {
+  font-size: 22px;
+  margin-top: 10px;
+}
