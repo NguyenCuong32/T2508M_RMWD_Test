@@ -1,0 +1,14 @@
+[
+  {
+    "id": 101,
+    "title": "Lập Trình Web Full-Stack",
+    "duration": "12 tháng",
+    "content": "Học từ cơ bản đến nâng cao về HTML, CSS, JavaScript, React, Node.js..."
+  },
+  {
+    "id": 102,
+    "title": "Phát Triển Ứng Dụng Di Động",
+    "duration": "10 tháng",
+    "content": "Sử dụng React Native hoặc Flutter để xây dựng ứng dụng iOS và Android."
+  }
+]
