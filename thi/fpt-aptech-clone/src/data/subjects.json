@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "subject": "ReactJS",
+    "description": "With a program design that includes 04 semesters with many important technologies such as ReactJS, PHP, Python, .NET Core, Spring boot brings learners to the world of programming quickly, most effectively. After graduation, students are confident in front of employers with 4 project semesters with quality, practical products, students will definitely score points.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+  },
+  {
+    "id": 2,
+    "subject": "PHP",
+    "description": "With a program design that includes 04 semesters with many important technologies such as ReactJS, PHP, Python, .NET Core, Spring boot brings learners to the world of programming quickly, most effectively. After graduation, students are confident in front of employers with 4 project semesters with quality, practical products, students will definitely score points.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+  },
+  {
+    "id": 3,
+    "subject": "Python",
+    "description": "With a program design that includes 04 semesters with many important technologies such as ReactJS, PHP, Python, .NET Core, Spring boot brings learners to the world of programming quickly, most effectively. After graduation, students are confident in front of employers with 4 project semesters with quality, practical products, students will definitely score points.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+  },
+  {
+    "id": 4,
+    "subject": ".NET",
+    "description": "With a program design that includes 04 semesters with many important technologies such as ReactJS, PHP, Python, .NET Core, Spring boot brings learners to the world of programming quickly, most effectively. After graduation, students are confident in front of employers with 4 project semesters with quality, practical products, students will definitely score points.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg"
+  }
+]
