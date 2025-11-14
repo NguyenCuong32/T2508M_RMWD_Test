@@ -1,0 +1,46 @@
+ .locations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  width: 100%;
+}
+
+.locations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.location-card {
+  border: 1px solid #f1f1f1;
+  border-radius: 12px;
+  padding: 16px;
+  background: #fff5e6;
+  box-shadow: 0 10px 30px rgba(243, 156, 18, 0.15);
+}
+
+.location-card h3 {
+  margin: 0 0 8px;
+  color: #c45c00;
+}
+
+.location-card p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.location-link {
+  display: inline-flex;
+  margin-top: 8px;
+  color: #f39c12;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.locations-map iframe {
+  width: 100%;
+  min-height: 320px;
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}

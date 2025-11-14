@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Hà Nội Campus",
+    "address": "Tòa nhà FPT Polytechnic, 13 Trịnh Văn Bô, Nam Từ Liêm, Hà Nội",
+    "phone": "024 6328 3456",
+    "mapUrl": "https://maps.app.goo.gl/R1ybVKakStQzfpFu5"
+  },
+  {
+    "id": 2,
+    "name": "Đà Nẵng Campus",
+    "address": "Toà nhà FPT, 137 Nguyễn Thị Thập, Liên Chiểu, Đà Nẵng",
+    "phone": "0236 7300 999",
+    "mapUrl": "https://maps.app.goo.gl/5p8SA1Ld1TVtQn839"
+  },
+  {
+    "id": 3,
+    "name": "TP. Hồ Chí Minh Campus",
+    "address": "Toà nhà Innovation, QTSC, phường Tân Chánh Hiệp, Quận 12, TP. HCM",
+    "phone": "028 7300 9998",
+    "mapUrl": "https://maps.app.goo.gl/6D4sC6bT7vFz5t4G8"
+  }
+]

@@ -1,0 +1,113 @@
+.home-page {
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  padding: 24px;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.home-banner img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+}
+
+.home-section {
+  margin-top: 40px;
+}
+
+.home-section-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #222638;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.home-section-description {
+  max-width: 680px;
+  margin: 0 auto 24px;
+  text-align: center;
+  color: #555;
+  line-height: 1.5;
+}
+
+.objects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.subjects-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.subjects-description {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #444957;
+}
+
+.home-address {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 12px;
+  color: #77798a;
+}
+
+.object-detail-panel {
+  margin-top: 24px;
+  background: #fff8ee;
+  border: 1px solid #ffe0b2;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 12px 32px rgba(243, 156, 18, 0.18);
+}
+
+.object-detail-panel h3 {
+  margin: 0 0 8px;
+  font-size: 1.4rem;
+  color: #c45c00;
+}
+
+.object-detail-panel p {
+  margin: 0 0 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.object-detail-list {
+  text-align: left;
+  margin: 0 auto 18px;
+  max-width: 720px;
+  padding-left: 20px;
+  color: #333;
+}
+
+.object-detail-list li {
+  margin-bottom: 6px;
+}
+
+.object-detail-cta {
+  border: none;
+  background: #f39c12;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.object-detail-cta:hover {
+  background: #d98200;
+}

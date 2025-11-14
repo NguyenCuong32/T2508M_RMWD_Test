@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "High School Student",
+    "description": "You want to pursue information technology, want to study in a professional programming training environment, with a systematic program and guaranteed output.",
+    "image": "images/8.png",
+    "highlights": [
+      "Bridge courses to strengthen math & logic foundations",
+      "Weekend tech clubs and project showcases",
+      "Guaranteed scholarship interviews for outstanding GPA"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Student",
+    "description": "You want to pursue information technology, want to study in a professional programming training environment, with a systematic program and guaranteed output.",
+    "image": "images/7.png",
+    "highlights": [
+      "Flexible timetable that fits university schedules",
+      "Opportunity to convert credits to international partners",
+      "Join internship pool after Semester 2"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Working",
+    "description": "You want to pursue information technology, want to study in a professional programming training environment, with a systematic program and guaranteed output.",
+    "image": "images/9.png",
+    "highlights": [
+      "Evening & online blended classes",
+      "Career switch mentoring with senior engineers",
+      "Access to exclusive hiring days with partner companies"
+    ]
+  }
+]
