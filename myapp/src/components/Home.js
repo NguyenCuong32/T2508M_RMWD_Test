@@ -1,29 +1,15 @@
-import { useEffect, useState } from "react";
 import Objects from "./Objects";
+import Subjects from "./Subjects";
 
 function Home() {
-    const [subjects, setSubjects] = useState([]);
-
-    useEffect(() => {
-        fetch("/subjects.json")
-            .then(res => res.json())
-            .then(data => setSubjects(data));
-    }, []);
+    
 
     return (
         <div className="container mt-3">
             <img src="https://aptech.fpt.edu.vn/wp-content/uploads/2023/12/Banner-trang-con-Sinh-vien-FPT-Aptech-1400x468px-desktop.png" className="w-100 rounded" alt="" />
             <div className="text-center mt-3 mb-3 fs-4 fw-bold">SHOULD WHO LEARN PROGRAMING IN FPT APTECH</div>
             <div className="row mt-2">
-                {subjects.map(sub => (
-                    <div key={sub.id} className="col-md-4">
-                        <div className="card card-body text-center">
-                            <img src={sub.image} className="img-fluid img-sub rounded mb-2" alt={sub.name} />
-                            <div className="fs-5 fw-bold text-primary mb-1">{sub.name}</div>
-                            <div className="text-black fw-bold">{sub.desc}</div>
-                        </div>
-                    </div>
-                ))}
+                <Subjects />
             </div>
 
             <div className="p-3">
