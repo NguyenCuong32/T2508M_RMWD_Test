@@ -62,7 +62,7 @@
   height: 60vh; /* Cao bằng 60% chiều cao màn hình */
 
   /* !!! QUAN TRỌNG: Thay thế bằng đường dẫn ảnh của bạn !!! */
-  background-image: url("../assets/banner-08.jpg");
+  background-image: url("../assets/banner.jpg");
 
   background-size: cover; /* Đảm bảo ảnh nền che phủ toàn bộ */
   background-position: center; /* Căn ảnh nền ra giữa */
@@ -76,39 +76,10 @@
   margin-bottom: 3rem; /* Khoảng cách với phần bên dưới */
 }
 
-/* Lớp phủ mờ giúp văn bản dễ đọc hơn trên ảnh nền */
-
 /* Đảm bảo nội dung banner nằm trên lớp phủ */
 .banner-content {
   position: relative;
   z-index: 2;
   padding: 1rem;
   max-width: 800px; /* Giới hạn chiều rộng của nội dung */
-}
-
-.banner-title {
-  font-size: 3rem; /* Cỡ chữ lớn cho tiêu đề */
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.banner-subtitle {
-  font-size: 1.25rem;
-  margin-bottom: 2rem;
-}
-
-.banner-button {
-  background-color: #f37b21; /* Màu cam đặc trưng (giống nút Sign In) */
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.banner-button:hover {
-  background-color: #e66a10; /* Màu cam đậm hơn khi di chuột */
 }
