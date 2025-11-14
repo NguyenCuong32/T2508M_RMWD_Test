@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   gap: 32px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .header-nav a {
@@ -57,7 +57,7 @@
 }
 
 .header-nav a:hover {
-  color: #222333;
+  color: #f39b1c;
   font-weight: 600;
 }
 
