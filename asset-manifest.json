@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NguyenCuong32/T2508M_RMWD_Test/tree/do-khac-gia-khoa/rmwd-test/static/css/main.3feece49.css",
+    "main.js": "/NguyenCuong32/T2508M_RMWD_Test/tree/do-khac-gia-khoa/rmwd-test/static/js/main.acd37b8e.js",
+    "static/js/453.46656d6b.chunk.js": "/NguyenCuong32/T2508M_RMWD_Test/tree/do-khac-gia-khoa/rmwd-test/static/js/453.46656d6b.chunk.js",
+    "index.html": "/NguyenCuong32/T2508M_RMWD_Test/tree/do-khac-gia-khoa/rmwd-test/index.html",
+    "main.3feece49.css.map": "/NguyenCuong32/T2508M_RMWD_Test/tree/do-khac-gia-khoa/rmwd-test/static/css/main.3feece49.css.map",
+    "main.acd37b8e.js.map": "/NguyenCuong32/T2508M_RMWD_Test/tree/do-khac-gia-khoa/rmwd-test/static/js/main.acd37b8e.js.map",
+    "453.46656d6b.chunk.js.map": "/NguyenCuong32/T2508M_RMWD_Test/tree/do-khac-gia-khoa/rmwd-test/static/js/453.46656d6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3feece49.css",
+    "static/js/main.acd37b8e.js"
+  ]
+}
