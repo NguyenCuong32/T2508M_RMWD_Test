@@ -1,0 +1,20 @@
+{
+  "name": "t2508m_rmwd_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenCuong32/T2508M_RMWD_Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenCuong32/T2508M_RMWD_Test/issues"
+  },
+  "homepage": "https://github.com/NguyenCuong32/T2508M_RMWD_Test#readme"
+}
