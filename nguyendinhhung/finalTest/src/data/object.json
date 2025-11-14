@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "High School Student",
+        "description": "A high school student is a young person who is studying at a high school, usually from grade 9 to 12.",
+        "image": "img/coding.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Student",
+        "description": "A high school student is someone who is preparing for higher education or future careers while learning academic subjects like math, literature, and science.",
+        "image": "img/student.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Working",
+        "description": "A high school student is a teenager attending secondary school to gain knowledge, skills, and social experience.",
+        "image": "img/working.jpg"
+    }
+]

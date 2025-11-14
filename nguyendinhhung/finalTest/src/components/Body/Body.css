@@ -1,0 +1,83 @@
+.subject-section {
+    padding: 60px 5%;
+    background-color: #eaf1f7;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+
+.subject-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s;
+    height: 100%;
+
+}
+
+.subject-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.subject-image-container {
+    height: 100px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject-image {
+    max-width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.subject-title {
+    font-size: 1.5em;
+    color: #c0392b;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.subject-description {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+.graduation-promise {
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+    background-color: #34495e;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-top: 55px;
+}
