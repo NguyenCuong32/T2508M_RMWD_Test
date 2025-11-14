@@ -1,0 +1,125 @@
+/* ===== Wrapper ===== */
+.learn-wrapper {
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Card ===== */
+.learn-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden; /* giúp ảnh bo theo card */
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.learn-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+}
+
+/* ===== Image ===== */
+.learn-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;   /* crop đẹp giống FPT */
+}
+
+/* ===== Text ===== */
+.learn-desc {
+  color: #444;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.learn-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.learn-price {
+  color: #ff6a00;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.learn-old-price {
+  color: #999;
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+.learn-card-body {
+  padding: 15px;
+}
+.learn-card-footer {
+  padding: 10px 15px 15px 15px;
+}
+.learn-rating {
+  color: #f5a623; /* Màu vàng cho sao */
+  margin-right: 5px;
+}
+.learn-review-count {
+  color: #777;
+  font-size: 14px;
+}
+.learn-instructor {
+  color: #555;
+  font-size: 14px;
+  margin-top: 8px;
+}
+.learn-badge {
+  background-color: #ff6a00;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.learn-badge-new {
+  background-color: #28a745; /* Màu xanh lá cho badge "New" */
+}
+.learn-badge-sale {
+  background-color: #dc3545; /* Màu đỏ cho badge "Sale" */
+}
+.learn-badge-best-seller {
+  background-color: #ffc107; /* Màu vàng cho badge "Best Seller" */
+}
+.learn-badge-top-rated {
+  background-color: #17a2b8; /* Màu xanh dương cho badge "Top Rated" */
+}
+.learn-badge-popular {
+  background-color: #6f42c1; /* Màu tím cho badge "Popular" */
+}
+.learn-badge-custom {
+  background-color: #ff5733; /* Màu cam đỏ cho badge tùy chỉnh */
+}
+.learn-badge-custom-2 {
+  background-color: #33c1ff; /* Màu xanh dương nhạt cho badge tùy chỉnh 2 */
+}
+.learn-badge-custom-3 {
+  background-color: #8e44ad; /* Màu tím đậm cho badge tùy chỉnh 3 */
+}
+.learn-badge-custom-4 {
+  background-color: #27ae60; /* Màu xanh lá đậm cho badge tùy chỉnh 4 */
+}
+.learn-badge-custom-5 {
+  background-color: #e67e22; /* Màu cam đậm cho badge tùy chỉnh 5 */
+}
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .learn-img {
+    height: 180px;
+  }
+}
+@media (max-width: 480px) {
+  .learn-img {
+    height: 150px;
+  }
+}
+@media (max-width: 320px) {
+  .learn-img {
+    height: 120px;
+  }
+}
+
+

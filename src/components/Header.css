@@ -1,0 +1,117 @@
+/* Transition smooth */
+.logo-transition {
+  transition: height 0.25s ease, transform 0.25s ease;
+}
+
+/* Navbar mặc định */
+.navbar-default {
+  padding: 15px 0;
+  transition: padding 0.25s ease;
+}
+
+/* Khi scroll navbar thu nhỏ */
+.navbar-shrink {
+  padding: 5px 0 !important;
+  transition: padding 0.25s ease;
+  background-color: white !important;
+}
+
+.nav-link-custom {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link-custom:hover {
+  color: #ff6a00;
+}
+.nav-link-custom {
+  color: #ffffff !important;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-link-custom:hover {
+  color: #5edbe4ed !important;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, #de421b, #f0ec05);
+  border-image-slice: 1;
+}
+
+.logo-img {
+  height: 20px;        /* Logo cao 20px */
+  width: auto;         /* Tự giữ tỉ lệ */
+  object-fit: contain; /* Không bị méo */
+  margin-bottom: 0;    /* Xóa khoảng cách dưới */
+  vertical-align: middle; /* Căn giữa với chữ */
+}
+
+.nav-link-custom.active::after {
+  width: 100%;
+}
+.logo-img {
+  height: 20px;        /* Logo cao 20px */
+  width: auto;         /* Tự giữ tỉ lệ */
+  object-fit: contain; /* Không bị méo */
+  margin-bottom: 0;    /* Xóa khoảng cách dưới */
+  vertical-align: middle; /* Căn giữa với chữ */
+}
+
+.nav-link-custom {
+  position: relative;
+  padding-bottom: 4px;
+}
+
+/* Gạch chân ẩn */
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(to right, #ff4500, #ffdd00);
+  transition: width 0.3s ease;
+  border-radius: 4px;
+}
+
+/* Khi hover thì chạy ra */
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+.navbar-shrink .logo-img {
+  height: 16px; /* Khi thu nhỏ, logo cao 16px */
+}
+.navbar-shrink .nav-link-custom {
+  color: #000 !important; /* Khi thu nhỏ, chữ màu đen */
+}
+.navbar-shrink .nav-link-custom:hover {
+  color: #ff6a00 !important; /* Khi thu nhỏ, hover chữ màu cam */
+}
+.navbar-shrink .nav-link-custom::after {
+  background: linear-gradient(to right, #ff4500, #ffdd00); /* Khi thu nhỏ, gạch chân gradient cam-vàng */
+}
+.navbar-shrink .nav-link-custom:hover::after {
+  background: linear-gradient(to right, #ff4500, #ffdd00); /* Khi thu nhỏ, hover gạch chân gradient cam-vàng */
+}
+/* Navbar background khi thu nhỏ */
+.navbar-shrink {
+  background-color: #ffffff !important;
+}
+.navbar-default {
+  background-color: transparent !important;
+}
+
+/* Thêm bóng khi thu nhỏ */
+.navbar-shrink {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-default {
+  box-shadow: none;
+}
+
+
+/* Đảm bảo navbar luôn trên cùng */
+.navbar {
+  z-index: 1000;
+}
