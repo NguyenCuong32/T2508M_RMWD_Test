@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image": "https://images2.thanhnien.vn/528068263637045248/2025/4/17/1fpt-17448600573791854504870.jpg",
+        "name": "HIGH SHOOL STUDENT",
+        "desc": "You want to pursue infomation technoloy, want to study a professional programing training environment, with a systematic program and guaranteed output."
+    },
+    {
+        "id": 2,
+        "image": "https://polyschool.fpt.edu.vn/wp-content/uploads/1-39-1024x683.png",
+        "name": "STUDENT",
+        "desc": "You want to pursue information technology, want to study in a professional programming training environment, with a systematic program and guaranteed output."
+    },
+    {
+        "id": 3,
+        "image": "https://nhn.1cdn.vn/2023/07/03/2.f.jpg",
+        "name": "WORKING",
+        "desc": "You want to pursue information technology, want to study in a professional programming training environment, with a systematic program and guaranteed output."
+    }
+]
