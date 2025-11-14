@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "subject": "ReactJS",
+    "description": "Khóa học giúp bạn làm chủ ReactJS, xây dựng web hiện đại, tối ưu hiệu năng.",
+    "image": "image/reactjs.png"
+  },
+  {
+    "id": 2,
+    "subject": "PHP",
+    "description": "Khóa học PHP với lộ trình rõ ràng, phù hợp cho backend web.",
+    "image": "image/php.png"
+  },
+  {
+    "id": 3,
+    "subject": ".NET",
+    "description": "Khóa học .NET giúp bạn lập trình ứng dụng doanh nghiệp mạnh mẽ.",
+    "image": "image/net.png"
+  }
+]

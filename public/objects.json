@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Học sinh cấp 3",
+    "description": "Bạn muốn theo học CNTT trong môi trường đào tạo chuyên nghiệp, chương trình bài bản và đảm bảo đầu ra.",
+    "image": "image/hocsinh.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Sinh viên",
+    "description": "Bạn yêu thích lập trình và mong muốn được học các công nghệ mới trong môi trường uy tín.",
+    "image": "image/sinhvien.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Người đi làm",
+    "description": "Bạn muốn chuyển ngành sang lập trình và cần một lộ trình đào tạo phù hợp.",
+    "image": "image/working.jpg"
+  }
+]
