@@ -13,14 +13,14 @@ export default function Home() {
       {/* HERO BANNERS */}
       <HeroBanner
         banners={[
-          "/images/hero-banner/banner-01.jpg",
-          "/images/hero-banner/banner-02.jpg",
-          "/images/hero-banner/banner-03.png",
-          "/images/hero-banner/banner-04.jpg",
-          "/images/hero-banner/banner-05.jpg",
-          "/images/hero-banner/banner-06.jpg",
-          "/images/hero-banner/banner-07.jpg",
-          "/images/hero-banner/banner-08.jpg",
+          process.env.PUBLIC_URL + "/images/hero-banner/banner-01.jpg",
+          process.env.PUBLIC_URL + "/images/hero-banner/banner-02.jpg",
+          process.env.PUBLIC_URL + "/images/hero-banner/banner-03.png",
+          process.env.PUBLIC_URL + "/images/hero-banner/banner-04.jpg",
+          process.env.PUBLIC_URL + "/images/hero-banner/banner-05.jpg",
+          process.env.PUBLIC_URL + "/images/hero-banner/banner-06.jpg",
+          process.env.PUBLIC_URL + "/images/hero-banner/banner-07.jpg",
+          process.env.PUBLIC_URL + "/images/hero-banner/banner-08.jpg",
         ]}
       />
 

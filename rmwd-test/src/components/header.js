@@ -18,15 +18,14 @@ function Header() {
             alt="FPT Aptech Logo"
           />
         </div>
-
         {/* Menu */}
         <nav className="header-nav">
+          <a href="#home">Home</a>
           <a href="#about">About Us</a>
           <a href="#products">Products</a>
           <a href="#booking">Booking</a>
           <a href="#locations">Locations</a>
         </nav>
-
         {/* Buttons */}
         <div className="header-actions">
           <button className="btn btn-signin">Sign In</button>
