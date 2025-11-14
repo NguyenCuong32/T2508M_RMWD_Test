@@ -1,0 +1,28 @@
+.locationsContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.locationsContainer h2 {
+    text-align: center;
+    color: #004a99;
+    margin-bottom: 30px;
+}
+
+.locationCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.locationCard h3 {
+    color: #f60;
+    margin-top: 0;
+}
+
+.locationCard p {
+    line-height: 1.6;
+}

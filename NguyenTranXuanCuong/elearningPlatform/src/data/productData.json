@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Front-End Development",
+        "description": "Learn to build beautiful and interactive user interfaces with React, Angular, and Vue.",
+        "image": "../../public/image/front-end.png"
+    },
+    {
+        "id": 2,
+        "title": "Back-End Development",
+        "description": "Master server-side logic, databases, and APIs using technologies like Node.js, Python, and .NET.",
+        "image": "../../public/image/backend.webp"
+    },
+    {
+        "id": 3,
+        "title": "Full Stack Development",
+        "description": "Become a versatile developer by learning both front-end and back-end technologies.",
+        "image": "../../public/image/full-stack-developer-4.png"
+    },
+    {
+        "id": 4,
+        "title": "Data Science",
+        "description": "Dive into data analysis, machine learning, and visualization with Python, R, and SQL.",
+        "image": "../../public/image/datascie.webp"
+    },
+    {
+        "id": 5,
+        "title": "AI Engineer",
+        "description": "Explore the frontiers of artificial intelligence, deep learning, and neural networks.",
+        "image": "../../public/image/aiengineer.jpg"
+    },
+    {
+        "id": 6,
+        "title": "DevOps",
+        "description": "Learn to streamline software development and operations with CI/CD, Docker, and Kubernetes.",
+        "image": "../../public/image/devops.png"
+    }
+]

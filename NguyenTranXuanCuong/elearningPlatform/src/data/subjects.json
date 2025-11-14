@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "subject": "Full Stack Developer",
+        "description": "With a program design that includes 04 semesters with many important technologies such as ReactJS, PHP, Python, .NET Core, Spring boot brings learners to the world of programming quickly, most effectively. After graduation, students are confident in front of employers with 4 project semesters with quality, practical products, students will definitely score points.",
+        "image": "../../public/image/full-stack-developer-4.png"
+    },
+    {
+        "id": 2,
+        "subject": "Back-end Developer",
+        "description": "With a program design that includes 04 semesters with many important technologies such as ReactJS, PHP, Python, .NET Core, Spring boot brings learners to the world of programming quickly, most effectively. After graduation, students are confident in front of employers with 4 project semesters with quality, practical products, students will definitely score points.",
+        "image": "../../public/image/backend.webp"
+    },
+    {
+        "id": 3,
+        "subject": "Data Scientist",
+        "description": "With a program design that includes 04 semesters with many important technologies such as ReactJS, PHP, Python, NET Core, Spring boot brings learners to the world of programming quickly, most effectively. After graduation, students are confident in front of employers with 4 project semesters with quality, practical products, students will definitely score points.",
+        "image": "../../public/image/datascie.webp"
+    }
+]

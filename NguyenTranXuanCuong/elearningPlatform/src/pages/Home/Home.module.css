@@ -1,0 +1,16 @@
+.sectionContainer {
+    margin-bottom: 40px;
+}
+
+.sectionContainer h2 {
+    text-align: center;
+    color: #004a99;
+    margin-bottom: 30px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}

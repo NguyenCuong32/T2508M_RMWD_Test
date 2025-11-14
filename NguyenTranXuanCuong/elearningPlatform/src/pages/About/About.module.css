@@ -1,0 +1,9 @@
+.contentBox {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.contentBox p {
+    line-height: 1.6;
+}

@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logoFpt {
+    color: #f60;
+}
+
+.logoAptech {
+    color: #004a99;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks li {
+    margin: 0 15px;
+}
+
+.authButtons .btnSignin,
+.authButtons .btnSignup {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.authButtons .btnSignin {
+    background-color: transparent;
+    color: #004a99;
+}
+
+.authButtons .btnSignup {
+    background-color: #004a99;
+    color: white;
+    margin-left: 10px;
+}
