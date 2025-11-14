@@ -1,0 +1,19 @@
+.signup-btn {
+  border: 2px solid #5a32a8;
+  color: #5a32a8;
+  background: transparent;
+  border-radius: 6px;
+}
+
+.signup-btn:hover {
+  background: #efe6ff;
+}
+
+/* Bỏ màu xanh mặc định của menu link khi active */
+.nav-link {
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  color: black !important;
+}
